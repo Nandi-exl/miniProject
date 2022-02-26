@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  background-image: url('./assets/gray-abstract-wireframe-technology-background.jpg');
+  background-size: cover;
+  /* min-height: 100vh; */
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    background-color: rgb(128, 128, 128, 0.2);
+  }
+
+  body {
+    max-width: 600px;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 0;
+    box-shadow: 0px 5px 20px rgb(128, 128, 128, 0.5);
+  }
+}
+
+#breadcrump {
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+/* Tempat pembayaran */
+
+.credit {
+  text-align: center;
+}
+
+#listInputs {
+  display: block;
+  margin-top: 35px;
+}
+
+#listInputs .dash-title {
+  display: inline-block;
+  color: #1a0034;
+  font-size: 1.7em;
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle .tab1,
+.tab2,
+.tab3 {
+  color: #1a0034;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  opacity: 1 !important;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  background-image: url('./assets/gray-abstract-wireframe-technology-background.jpg');
+  background-size: contain;
+  /* min-height: 1000vh; */
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    background-color: rgb(128, 128, 128, 0.2);
+  }
+
+  body {
+    max-width: 600px;
+    /* min-height: 1000vh; */
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0px 5px 20px rgb(128, 128, 128, 0.5);
+  }
+}
+
+#nav-bar {
+  top: 0;
+  font-weight: 500;
+}
+
+#breadcrump {
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 599px) {
+  #breadcrump {
+    margin-left: 1rem;
+  }
+}
+
+.showcase {
+  border-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+}
+
+.showcase img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.ps5body {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#cicilan {
+  margin-top: 1rem;
+}
+
+#cicilan3x {
+  padding: 10px;
+  cursor: pointer;
+}
+#cicilan6x {
+  padding: 10px;
+  cursor: pointer;
+}
+#cicilan12x {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#cicilanText {
+  margin-top: 1rem;
+}
+
+#cicilanText1 {
+  width: 5rem;
+  height: 6rem;
+  background-color: black;
+}
+#cicilanText2 {
+  width: 5rem;
+  height: 6rem;
+  background-color: black;
+}
+#cicilanText3 {
+  width: 5rem;
+  height: 6rem;
+  background-color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.btn1 {
+  z-index: 1;
+  position: absolute;
+  width: 47.5%;
+  margin-top: 3rem;
+  text-align: center;
+}
+.btn2 {
+  z-index: 0;
+  position: absolute;
+  width: 47.5%;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#btn3 {
+  width: 100%;
+  text-align: center;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .btn1 {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .btn2 {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
+
+#accomodation {
+  margin-top: 4rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
